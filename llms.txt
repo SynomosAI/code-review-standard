@@ -1,0 +1,18 @@
+# code-review-standard
+
+> 代码审查标准与流程技能包：三大铁律、三级检查清单（Blocker/Suggestion/Nit）、PR 模板、Hotfix 通道、自动化工具集成。
+
+`code-review-standard` 是 SynomosAI 生态的一个 Agent Skill，面向微信生态项目与 WorkBuddy 全栈项目的代码审查规范化。
+
+## 核心
+
+- [README.md](https://github.com/SynomosAI/code-review-standard/blob/main/README.md): 项目说明与快速开始
+- [SKILL.md](https://github.com/SynomosAI/code-review-standard/blob/main/SKILL.md): 技能主文件（审查标准 / 清单 / 流程 / 模板）
+- [LICENSE.md](https://github.com/SynomosAI/code-review-standard/blob/main/LICENSE.md): MIT License
+
+## 可选
+
+- [llms-full.txt](https://github.com/SynomosAI/code-review-standard/blob/main/llms-full.txt): 完整文本
+- [AGENTS.md](https://github.com/SynomosAI/code-review-standard/blob/main/AGENTS.md): Agent 工作指引
+- [SECURITY.md](https://github.com/SynomosAI/code-review-standard/blob/main/SECURITY.md): 安全策略
+- [README.en.md](https://github.com/SynomosAI/code-review-standard/blob/main/README.en.md): 英文版说明

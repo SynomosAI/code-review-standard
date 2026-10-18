@@ -1,0 +1,35 @@
+# code-review-standard — 完整文本
+
+## 这是什么
+
+`code-review-standard` 是一个 Agent Skill，提供一套完整的代码审查规范。适用项目为 WorkBuddy 全栈项目与微信生态开发。
+
+## 核心内容
+
+- 三大铁律：教育优先、具体可操作、优先分级（🔴 Blockers / 🟡 Suggestions / 💭 Nits）
+- 三级检查清单：安全漏洞、数据丢失风险、API 契约破坏、测试覆盖、权限校验（Blockers）；输入校验、命名、DRY、性能、错误处理（Suggestions）；注释、格式、魔法数字、函数长度（Nits）
+- 标准审查流程：自评 → PR → 24h 响应 → 分级反馈 → 修改 → Approve
+- Hotfix 紧急通道：资深工程师 30 分钟内审查，事后 24h 补全
+- 自动化工具：ESLint、Prettier、Jest/Vitest、SonarQube
+- 质量度量：响应时间 <24h、审查轮次 ≤2、测试覆盖率 ≥80%、安全问题数 0
+- 评论模板：Blocker / Suggestion / Nit / 称赞四类
+
+## 快速开始
+
+```bash
+git clone https://github.com/SynomosAI/code-review-standard.git
+cd code-review-standard
+cat SKILL.md
+```
+
+## 触发词
+
+代码审查 / code review / PR review / 审查标准 / 质量门禁 / 检查清单 / Blocker / Hotfix。
+
+## 许可与权利
+
+MIT License。© 2026 注册老炮@MedXpert。完整条款见 LICENSE.md。
+
+## 链接
+
+- 仓库: https://github.com/SynomosAI/code-review-standard
