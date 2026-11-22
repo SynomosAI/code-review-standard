@@ -1,0 +1,23 @@
+{
+  "algorithm": "sha256(sorted relpath + NUL + file sha256, per line)",
+  "history": [
+    {
+      "root_digest": "7c94788a116517974b3fac135a8db7ef3f4ab289086dd63608af7094deda8349",
+      "sequence": 1
+    }
+  ],
+  "root_digest": "7c94788a116517974b3fac135a8db7ef3f4ab289086dd63608af7094deda8349",
+  "schema_version": 2,
+  "sequence": 1,
+  "skill_count": 1,
+  "skills": [
+    {
+      "declared_name": "code-review-standard",
+      "digest": "bdcc436504f96f07147a7244ff5fc5345f0d24480ec94ed4c1772822cf0df7ed",
+      "file_count": 1,
+      "has_description": true,
+      "path": "."
+    }
+  ],
+  "validated_against": []
+}
